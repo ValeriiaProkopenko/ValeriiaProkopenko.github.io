@@ -1,0 +1,119 @@
+body {
+  background-image: url('photo-9.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed; 
+  font-family: 'Montserrat', sans-serif;
+  color: #fff; 
+  margin: 0;
+  padding: 0;
+}
+
+.title-highlight {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  color: #000;
+}
+
+
+.photo {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+  display: block;
+  margin: 0 auto;
+  place: right-side;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover {
+  
+  background-color: black;
+  }
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.two-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.rouge-script {
+    font-family: 'Rouge Script', cursive;
+    font-size: 30px; 
+    color: #000; 
+    text-align: left-side; 
+}
+.photo5 {
+  width: 400px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+  display: block;
+  margin: 0;
+  place: left-side;
+}
+#about {
+  background-image: url('photo-4.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} 
+.photo4 {
+  width: 400px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+  display: block;
+  margin: 0;
+  place: center;
+}
+.photo7 {
+  width: 400px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+  display: block;
+  margin: 0;
+  place: right;
+}
