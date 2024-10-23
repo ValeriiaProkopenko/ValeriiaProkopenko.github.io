@@ -17,8 +17,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
   color: #000;
 }
-
-
+h1.title {
+  font-size: 40px; 
+  font-family: 'Playfair Display', serif; 
+  font-weight: 700; 
+  text-align: left-side; 
+  margin: 20px 0;
+  color: white; 
+}
 .photo {
   width: 200px; 
   height: auto;
@@ -85,22 +91,16 @@ footer {
     text-align: left-side; 
 }
 .photo5 {
-  width: 400px; 
+  width: 200px; 
   height: auto;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
   display: block;
   margin: 0;
   place: left-side;
-}
-#about {
-  background-image: url('photo-4.jpg'); 
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 } 
-.photo4 {
-  width: 400px; 
+.photo8 {
+  width: 200px; 
   height: auto;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
@@ -109,9 +109,60 @@ footer {
   place: center;
 }
 .photo7 {
-  width: 400px; 
+  width: 200px; 
   height: auto;
   border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+  display: block;
+  margin: 0;
+  place: right;
+}
+.photo15 {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+  display: block;
+  margin: 0;
+  place: center;
+}
+.photo4 {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+  display: block;
+  margin: 0;
+  place: right;
+}
+.media-row {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.media-row img {
+  width: 150px; 
+  height: auto; 
+  margin: 0 10px; 
+}
+
+.media-row iframe {
+  margin: 0 10px; 
+}
+.photo10 {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+  display: block;
+  margin: 0;
+  place: right;
+}
+.photo16 {
+  width: 300px; 
+  height: auto;
+  border-radius: 15px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
   display: block;
   margin: 0;
